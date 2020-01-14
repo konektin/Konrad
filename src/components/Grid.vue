@@ -87,7 +87,12 @@ export default {
   			this.gameStatusMessage = 'Draw !'
   			return
   		}
-			 return this.gameStatusMessage = `Tura ${this.activePlayer}`
+		  else if (this.gameStatus === 'turn') {
+  			this.gameStatusColor = 'statusTurn'
+  			this.gameStatusMessage = `Tura ${this.activePlayer}`
+  			return
+  		}
+			 
   	}
   },
   methods: {
