@@ -87,7 +87,7 @@ export default {
   			this.gameStatusMessage = 'Draw !'
   			return
   		}
-			 return 'turn'
+			 return this.gameStatusMessage = `Tura ${this.activePlayer}`
   	}
   },
   methods: {
