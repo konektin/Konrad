@@ -49,20 +49,16 @@ export default {
 	components: { Cell },
   data () {
     return {
-    	// can be O or X
+    	
     	activePlayer: 'O',
-    	// maintains the status of the game: turn or win or draw
+    
     	gameStatus: 'turn',
-    	gameStatusMessage: `O's turn`,
-    	// status color is used as background color in the status bar
-    	// it can hold the name of either of the following CSS classes
-    	// statusTurn (default) is yellow for a turn
-			// statusWin is green for a win
-			// statusDraw is purple for a draw
+    	gameStatusMessage: `Gra w toku`,
+    	
     	gameStatusColor: 'statusTurn',
-    	// no. of moves played by both players in a single game (max = 9)
+    	
     	moves: 0,
-    	// stores the placement of X and O in cells by their cell number
+    	
 			cells: {
 				1: '', 2: '', 3: '', 4: '', 5: '', 
 				6: '', 7: '', 8: '', 9: '', 10: '', 
@@ -95,13 +91,7 @@ export default {
   			this.gameStatusColor = 'statusDraw'
   			this.gameStatusMessage = 'Draw !'
   			return
-  		}
-		  else if (this.gameStatus === 'turn') {
-  			this.gameStatusColor = 'statusTurn'
-  			this.gameStatusMessage = `Tura ${this.activePlayer}`
-  			return
-  		}
-			 
+  		}	 
   	}
   },
   methods: {
@@ -120,7 +110,7 @@ export default {
 		},
 		gameIsWon () {			
 			Event.$emit('win', this.activePlayer)
-			this.gameStatusMessage = `${this.activePlayer} Wins !`
+			this.gameStatusMessage = `Wygrywa ${this.activePlayer}`
 			Event.$emit('freeze')
 			return 'win'
 		},
