@@ -2,32 +2,36 @@ header, nav, main, footer
 {
   display: block;
   width: 1078px;
+  text-align: left;
+  margin: auto;
 }
 
 body {
   color: #ffffff;
-  background-color:#000000;
+  background-color:#9370DB;
   margin: 0px;
   text-align: center;
 }
 
 header, nav{
-  color: red;
-  background-color: yellow;
+  color: white;
+  background-color: gray;
   position: relative;
 }
 
 footer {
-  color: black;
-  background-color: aqua;
+  color: white;
+  background-color: blue;
   clear: both;
+  width: 1078px;
+  height: auto;
 }
 
 main {
   color: black;
-  background-color: aqua;
   height: auto;
-  overflow:hidden;
+  overflow: hidden;
+  margin: auto;
 }
 
 #col-left {
@@ -35,11 +39,11 @@ main {
   width: 200px;
   height: 200px;
   float: left;
+  color: white;
 }
 #col-center {
-  background-color: orange;
-  width: 420px;
-  height: auto;
+  background-color: #00008B;
+  height: 200px;
 }
 
 #container {
@@ -53,15 +57,23 @@ main {
 
 #logo {
  position: absolute;
- top:10px; left:100px;
+ top:10px; left:10px;
  width: 200px;
  height: 40px;
  border: 2px dotted #731980;
 }
 
-
 img{
 	width: 60px;
 	height: 60px;
-	
+	right: 10px;
 }
+
+#tabela td {
+   border: 1px solid black;
+   padding: 5px;
+}
+table {background-color: #87CEFA;}
+   table thead th {color: #FFFFFF;}
+   table tbody tr:nth-child(2n+3) { background-color: #32CD32; }
+   table tbody tr:nth-child(2n+4) { background-color: #C0C0C0; }
