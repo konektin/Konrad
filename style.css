@@ -21,3 +21,13 @@ main,footer{
 main{
   height: auto;
 }
+
+#col-left {
+background-color:#006acc;
+width: 200px;
+height: 200px;
+}
+#col-center {
+width: 420px;
+height: auto;
+}
