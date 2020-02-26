@@ -5,29 +5,47 @@ header, nav, main, footer
 }
 
 body {
- color: #ffffff;
- background-color:#000000;
+  color: #ffffff;
+  background-color:#000000;
+  margin: 0px;
+  text-align: center;
 }
 
 header, nav{
   color: red;
   background-color: yellow;
 }
-main,footer{
+
+footer {
   color: black;
   background-color: aqua;
+  clear: both;
 }
 
-main{
+main {
+  color: black;
+  background-color: aqua;
   height: auto;
+  overflow:hidden;
 }
 
 #col-left {
-background-color:#006acc;
-width: 200px;
-height: 200px;
+  background-color:#006acc;
+  width: 200px;
+  height: 200px;
+  float: left;
 }
 #col-center {
-width: 420px;
-height: auto;
+  background-color: orange;
+  width: 420px;
+  height: auto;
+}
+
+#container {
+ position: relative;
+ margin: auto;
+ width: 1078px;
+ height: auto;
+ overflow: hidden;
+ border: 1px solid #ffffff;
 }
