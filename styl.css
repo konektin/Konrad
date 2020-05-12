@@ -1,0 +1,304 @@
+@font-face {
+    font-family: font;
+    src: url(Oswald-Bold.ttf);
+  }
+ 
+body{
+    background-image: url("https://marketplace.canva.com/EAD297uecnM/2/0/1600w/canva-rainbow-gradient-pink-orange-and-blue-zoom-virtual-background-VwJMC37j5jQ.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ 
+ol {
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    font-size:18px;
+    width: 99.5%;
+    line-height:50px;
+    text-align:center;
+    position: fixed;
+    color: white;
+    font-size: 18px;
+    font-family: font;
+    z-index: 999;
+    margin-left: 14px;
+  }
+ 
+  ol > li {
+    float:left;
+    background-color: rgba(0, 0, 0, 0.15);
+    width:32.5%;
+    padding: 2px;
+  }
+ 
+  ol > li > ul > li > a {
+      text-decoration: none;
+      color: white;
+  }
+ 
+  ol > li > ul > li > a:hover {
+    text-decoration: none;
+    color: rgb(201, 133, 46);
+  }
+ 
+  ol > li:hover{
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+ 
+  ol > li > ul {
+      display: none;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+  }
+ 
+  ol > li:hover > ul {
+    display: block;
+  }
+ 
+  ol > li > ul > li {
+    margin-top: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+  }
+ 
+  ol > li > ul > li:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+ 
+  ol > li > ul >  li {
+    margin-top: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+  }
+ 
+  ol > li > ul >  li:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+ 
+#logo {
+    width: 50px;
+    float: left;
+    margin-right: -50px;
+}
+ 
+#lewa {
+    position: relative;
+    width: 35%;
+    float:left;
+    padding-top: 300px;
+    margin-left: 10%;
+    color: rgba(97, 53, 119, 1);
+    font-family: font;
+    font-size: 36px;
+}
+ 
+#lewa h1 {
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+ 
+ 
+#prawa {
+    position: relative;
+    width: 35%;
+    float:right;
+    padding-top: 300px;
+    margin-right: 10%;
+    color: rgba(97, 53, 119, 1);
+    font-family: font;
+    font-size: 36px;
+}
+ 
+#prawa h1 {
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+ 
+.przyciecie {
+    position: relative;
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+    text-indent: -200px;
+    z-index: 1;
+    overflow: hidden;
+}
+ 
+.przyciecie h3 {
+    font-family: font;
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    color: white;
+    font-size: 22px;
+    z-index: 2;
+    visibility: visible;
+}
+ 
+.przyciecie p {
+    font-family: font;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 14px;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.9);
+    visibility: hidden;
+    opacity:0;
+    transition:visibility 0.3s linear,opacity 0.3s linear;
+}
+ 
+.przyciecie:hover p{
+    visibility: visible;
+    opacity:1;
+}
+ 
+.przyciecie:hover h3{
+    color: rgb(201, 133, 46)
+}
+ 
+.przyciecie2 {
+    position: relative;
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    float: right;
+    text-indent: -225px;
+}
+ 
+.przyciecie2:hover p {
+    visibility: visible;
+    opacity:1;
+}
+ 
+.przyciecie2:hover h3{
+    color: rgb(201, 133, 46)
+}
+ 
+.przyciecie2 h3 {
+    font-family: font;
+    position: absolute;
+    top: 10px;
+    left: 245px;
+    color: white;
+    font-size: 22px;
+    z-index: 2;
+    visibility: visible;
+}
+ 
+.przyciecie2 p {
+    font-family: font;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 14px;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.9);
+    visibility: hidden;
+    opacity: 0;
+    transition:visibility 0.3s linear,opacity 0.3s linear;
+}
+ 
+.pustka {
+    min-height: 30px;
+    height: 30px;
+    font-size: 0px;
+    width: 100%;
+    max-width: 100%;
+    float: left;
+}
+ 
+#archiwum {
+    position: relative;
+    min-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float:left;
+    padding-top: 100px;
+    color: rgba(97, 53, 119, 1);
+    font-family: font;
+    font-size: 36px;
+}
+ 
+#archiwum h1 {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+ 
+.pustka2 {
+    min-width: 23.5%;
+    min-height: 330px;
+    float: left;
+}
+ 
+footer {
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+}
+ 
+#strzalka {
+    display: none;
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    bottom: 25px;
+    right: 25px;
+    background: none;
+    border: none;
+    background-size: 64px 64px;
+    background-image: url("http://cdn.onlinewebfonts.com/svg/img_439309.png");
+    z-index: 1;
+}
+.przyciecie3 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+    margin-top: 25px;
+}
+ 
+.przyciecie3 a > h3{
+    text-decoration: none;
+    font-size: 72px;
+    color: rgba(255, 255, 255, 0.95);
+    margin-top: -300px;
+    margin-left: 550px;
+    position: absolute;
+}
+ 
+.przyciecie3 a > h3:hover{
+    color: rgb(201, 133, 46)
+}
+ 
+.przyciecie3 img{
+    position: relative;
+    max-width: 500px;
+    max-height: 500px;
+    overflow: hidden;
+    text-indent: -225px;
+}
+.przyciecie3 p {
+    font-family: font;
+    font-size: 20px;
+    position: relative;
+}
+ 
+th{
+    background-color: rgba(0, 0, 0, 0.20);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.35);
+    font-size: 48px;
+  }
+td{
+    width: 20%;
+    text-indent: 10px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-right: 0px solid rgba(0, 0, 0, 0.35);
+}
+td:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgba(201, 133, 46, 0.8)
+}
+td > a > img {
+    max-height: 300px;
+    max-width: 500px;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    margin-top: 7px;
+}
