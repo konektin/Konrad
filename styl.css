@@ -24,6 +24,11 @@ body{
 #przycisk:hover{
     color: black;
 }
+#fit{
+    max-width: 400px;
+    max-height: 400px;
+    float: left;
+}
 ol {
     list-style-type:none;
     padding:0px;
@@ -100,7 +105,7 @@ ol {
     position: relative;
     width: 35%;
     float:left;
-    padding-top: 300px;
+    padding-top: 50px;
     margin-left: 10%;
     color: rgba(97, 53, 119, 1);
     font-family: font;
@@ -117,7 +122,7 @@ ol {
     position: relative;
     width: 35%;
     float:right;
-    padding-top: 300px;
+    padding-top: 50px;
     margin-right: 10%;
     color: rgba(97, 53, 119, 1);
     font-family: font;
@@ -239,7 +244,12 @@ ol {
 #archiwum h1 {
     text-align: center;
 }
- 
+#au{
+	position: relative;
+	width: 25%;
+    float:left;
+    margin-left: 6%;
+}
 .pustka2 {
     min-width: 23.5%;
     min-height: 330px;
