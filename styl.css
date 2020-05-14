@@ -9,7 +9,16 @@ body{
     background-attachment: fixed;
 	background-size: cover;
 }
- 
+
+#przycisk{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 8px;
+	
+}
 ol {
     list-style-type:none;
     padding:0px;
@@ -215,15 +224,15 @@ ol {
     margin-left: 5%;
     margin-right: 5%;
     float:left;
-    padding-top: 100px;
-    color: rgba(97, 53, 119, 1);
+	padding-top: 100px;
+    color: rgba(250, 253, 200, 0.83);
+	text-shadow: 2px 2px 8px #000000;
     font-family: font;
     font-size: 36px;
 }
  
 #archiwum h1 {
     text-align: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
  
 .pustka2 {
