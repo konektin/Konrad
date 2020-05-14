@@ -7,6 +7,7 @@ body{
     background-image: url("https://marketplace.canva.com/EAD297uecnM/2/0/1600w/canva-rainbow-gradient-pink-orange-and-blue-zoom-virtual-background-VwJMC37j5jQ.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+	background-size: cover;
 }
  
 ol {
